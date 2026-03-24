@@ -10,56 +10,56 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>University History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="3rd Year"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Synoptic Project</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Diverse level designs using a custom level design system made by me.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="3rd Year"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">VFX and Game Production Studio</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              A simulated studio space where we had 1 week sprints and weekly team stand ups and used project management tools like Jira.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2nd Year"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Rapid Game Prototyping</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Every week I got a theme to base a game prototype around.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2nd Year"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Environment and Level Design</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              I created a level using industry storytelling techniques to create a level without using dialogue or UI to guide the player.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
