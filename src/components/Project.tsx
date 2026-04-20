@@ -26,9 +26,9 @@ function Project() {
                 <p>A simulated studio space where we had 1 week sprints and weekly team stand ups and used project management tools like Jira. I was one of the main modellers and created many models every week.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Synoptic Project</h2></a>
-                <p>I created a level using my own intuition as a level designer at the time and gathered feedback from colleagues and friends about what I could improve upon and change and used that knowledge to create a universal level design system.</p>
+                <a href="https://www.artstation.com/artwork/qJa19y" target="_blank" rel="noreferrer"><img src={potion} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.artstation.com/artwork/qJa19y" target="_blank" rel="noreferrer"><h2>Synoptic Project</h2></a>
+                <p>I created a level using my own intuition as a level designer at the time and gathered feedback from colleagues and friends about what I could improve upon and change and used that knowledge to create a universal level design system.(WIP)</p>
             </div>
             <div className="project">
                 <a href="https://www.artstation.com/artwork/qJa19y" target="_blank" rel="noreferrer"><img src={Corridor} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -36,8 +36,8 @@ function Project() {
                 <p>This is a Level I created by using industry standard techniques where I had to guide a player through the level without explicit instructions.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={wood} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Personal Projects</h2></a>
+                <a href="https://www.artstation.com/artwork/bgAE8v" target="_blank" rel="noreferrer"><img src={wood} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.artstation.com/artwork/bgAE8v" target="_blank" rel="noreferrer"><h2>Personal Projects</h2></a>
                 <p>This is a personal collection of models I have created for fun!</p>
             </div>
             

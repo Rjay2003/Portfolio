@@ -2,43 +2,24 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faPaintbrush } from '@fortawesome/free-solid-svg-icons';
+import {faBezierCurve} from '@fortawesome/free-solid-svg-icons';
+import {faCompassDrafting} from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Unreal Engine",
+    "Unity",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Blender",
+    "Maya",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Adobe 3D Substance Painter"
 ];
 
 function Expertise() {
@@ -48,11 +29,11 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Unreal Engine</h3>
-                    <p>I have used Unreal Engine 5 for three years now, I mainly use it to create a variety of different looking environments such as a post-apocolyptic city and a cozy campsite. </p>
+                    <FontAwesomeIcon icon={faCompassDrafting} size="3x" />
+                    <h3>Level Design</h3>
+                    <p>I have 3 years of experience designing levels. I love the aesthetics of an overgrown, abandoned city and I also enjoy the vibe of a cozy fireplace.  </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Software:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -60,11 +41,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Blender Modelling</h3>
-                    <p>This is the main software I use for creating my models and I have 3 years of experience using this program, I mainly create hard surface props like a post box for example. I am looking to branch out into more intricate models.</p>
+                    <FontAwesomeIcon icon={faBezierCurve}  size="3x" />
+                    <h3>3D Modelling</h3>
+                    <p>This is my main area of expertise, I have 3 years of experience modelling props for environments like a lamp post and also interactable models such as a health potion.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Software:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -72,11 +53,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>Substance Painter Texturing</h3>
-                    <p>I have about 2 years of experience in this software, but I really enjoy the process of picking the correct texture for a models. I would like to learn more about this software and what it can deliver at a bigger scope.</p>
+                    <FontAwesomeIcon icon={faPaintbrush} size="3x" />
+                    <h3>Texture Painting</h3>
+                    <p>I have about 2 years of experience in this area, but I really enjoy the process of picking the correct texture for my models. </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Software:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
