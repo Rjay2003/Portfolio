@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8e799984.css",
-    "main.js": "/portfolio/static/js/main.8bbb36ba.js",
-    "static/js/453.27fb6024.chunk.js": "/portfolio/static/js/453.27fb6024.chunk.js",
-    "static/media/RightCorridor.png": "/portfolio/static/media/RightCorridor.ec77b79e47c80c1d6e2b.png",
-    "static/media/ToonWood.png": "/portfolio/static/media/ToonWood.fce8831bcf0422506b9e.png",
-    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/ProfilePhoto.jpg": "/portfolio/static/media/ProfilePhoto.14cacee988ef9194db53.jpg",
-    "static/media/HealthRender.jpg": "/portfolio/static/media/HealthRender.c5599a8a7217204be4d3.jpg",
-    "static/media/WatchRender.jpg": "/portfolio/static/media/WatchRender.80898165daa42583b8f9.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.8e799984.css.map": "/portfolio/static/css/main.8e799984.css.map",
-    "main.8bbb36ba.js.map": "/portfolio/static/js/main.8bbb36ba.js.map",
-    "453.27fb6024.chunk.js.map": "/portfolio/static/js/453.27fb6024.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.702ac57e.css",
+    "main.js": "/Portfolio/static/js/main.b6072bea.js",
+    "static/js/453.27fb6024.chunk.js": "/Portfolio/static/js/453.27fb6024.chunk.js",
+    "static/media/RightCorridor.png": "/Portfolio/static/media/RightCorridor.ec77b79e47c80c1d6e2b.png",
+    "static/media/ToonWood.png": "/Portfolio/static/media/ToonWood.fce8831bcf0422506b9e.png",
+    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ProfilePhoto.jpg": "/Portfolio/static/media/ProfilePhoto.14cacee988ef9194db53.jpg",
+    "static/media/HealthRender.jpg": "/Portfolio/static/media/HealthRender.c5599a8a7217204be4d3.jpg",
+    "static/media/WatchRender.jpg": "/Portfolio/static/media/WatchRender.80898165daa42583b8f9.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.702ac57e.css.map": "/Portfolio/static/css/main.702ac57e.css.map",
+    "main.b6072bea.js.map": "/Portfolio/static/js/main.b6072bea.js.map",
+    "453.27fb6024.chunk.js.map": "/Portfolio/static/js/453.27fb6024.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e799984.css",
-    "static/js/main.8bbb36ba.js"
+    "static/css/main.702ac57e.css",
+    "static/js/main.b6072bea.js"
   ]
 }
